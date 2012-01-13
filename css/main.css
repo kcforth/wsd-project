@@ -1,0 +1,28 @@
+body{
+font-family: 'Istok Web', sans-serif;
+}
+
+ul li{
+background: rgb(135, 206, 250);
+display: inline;
+border-width: 2px;
+border-style: solid;
+border-color: rgb(25, 25, 112);
+border-radius: 10px;
+padding: 5px;
+}
+
+a:hover{
+color: rgb(255, 255, 255);
+background-color: (25, 25, 112);
+border-bottom: none;
+}
+
+h1, h2{
+text-shadow: 1px 1px 1px #666
+}
+
+#main{
+background-color: rgba(0, 191, 255, 0.35);
+-moz-column-count: 3;
+}
