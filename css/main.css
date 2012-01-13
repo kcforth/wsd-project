@@ -1,5 +1,7 @@
 body{
 font-family: 'Istok Web', sans-serif;
+width: 900px;
+margin: 0 auto;
 }
 
 ul li{
@@ -10,11 +12,11 @@ border-style: solid;
 border-color: rgb(25, 25, 112);
 border-radius: 10px;
 padding: 5px;
+float: right;
 }
 
 a:hover{
 color: rgb(255, 255, 255);
-background-color: (25, 25, 112);
 border-bottom: none;
 }
 
@@ -22,7 +24,35 @@ h1, h2{
 text-shadow: 1px 1px 1px #666
 }
 
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:5px:
+}
+
+h3, h4, h5, h6{
+	font-size:16px;
+
 #main{
 background-color: rgba(0, 191, 255, 0.35);
+-ms-column-count: 3;
 -moz-column-count: 3;
+-webkit-column-count: 3;
+-o-column-count: 3;
+-khtml-column-count: 3;
+float: left;
 }
+
+img{
+	border: 2.5px solid #333;
+	float: right;
+	margin: 10px, 10px, 10px, 0px;
+	padding: 5px;
+}
+ul #photos{
+display: inline;
+}
+
+#order{
+float: clear;
+}
+	
