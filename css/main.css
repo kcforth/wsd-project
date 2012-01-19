@@ -1,6 +1,6 @@
 body{
-font-family: 100%/1.0 'Istok Web', sans-serif;
-width: 75%;
+font-family:'Istok Web', arial;
+max-width: 960px;
 margin: 0 auto;
 padding: 0;
 background-image:url('../images/bg_global.jpg');
@@ -8,13 +8,21 @@ background-color:rgb(255,255,255);
 background-repeat:repeat-x;
 }
 
+#site{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
 h1{
-float:left
+float:left;
+font-size: 200%;
 }
 
 h2{
 clear:both;
-padding: 5px; 
+padding: 0.005208333333333%;
+font-size: 150%;
 }
 
 ul li{
@@ -24,7 +32,7 @@ border-width: 2px;
 border-style: solid;
 border: 2px solid rgb(25,25,112);
 border-radius: 10px;
-padding: 5px;
+padding: 0.075%;
 float: right;
 }
 
@@ -39,12 +47,15 @@ text-shadow: 1px 1px 1px #666
 
 h1, h2, h3, h4, h5, h6{
 	margin:0;
-	padding: 5px; 
-	
+	padding: 0.005208333333333%; 	
 }
 
 h3, h4, h5, h6{
-	font-size:16px;
+	font-size:125%;
+}
+
+p{
+font-size: 87.5%;
 }
 
 #main{
@@ -56,41 +67,56 @@ border: 1px solid rgb(25,25,112);
 -o-column-count: 3;
 -khtml-column-count: 3;
 float: left;
-padding: 15px; 
+padding: 0.015625%; 
 text-align: left;
 }
 
 img{
 	border: 2.5px solid #333;
 	float: right;
-	margin: 10px 10px 10px;
-	padding: 5px;
+	margin:0;
+	padding: 0.005208333333333%;
+	max-width:100%;
+}
+
+#stew{
+	width:31.25%;
+	border: 2.5px solid #333;
+	float: right;
+	margin:0;
+	padding: 0.005208333333333%;
+	max-width:100%;
+}
+
+ol li{
+font-size: 87.5%;
 }
 
 #photos li{
 display: inline;
 float: right;
-width: 230px;
+width: 23.9583333333333%;
 margin:0;
 background: none;
 border-width: 0;
 border-style: none;
 border: 0;
 border-radius: 0;
-padding: 0;
+padding:0.25%;
+max-width:100%;
 }
 
 #labels li{
 display: inline;
 float: right;
-width: 230px;
+width: 23.25%;
 margin: 0;
 background: none;
 border-width: 0;
 border-style: none;
 border: 0;
 border-radius: 0;
-padding: 0;
+padding: 0.1%;
 }
 
 #order{
