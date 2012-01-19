@@ -3,7 +3,11 @@ font-family: 'Istok Web', sans-serif;
 width: 960px;
 margin: 0 auto;
 padding: 0;
-background:rgb(255,255,255) url('../images/bg_global.jpg') repeat-x;
+background-image:url('../images/bg_global.jpg');
+background-color:rgb(255,255,255);
+background-repeat:repeat-x;
+
+
 }
 
 h1{
@@ -18,6 +22,8 @@ padding: 5px;
 ul li{
 background: rgb(238, 238, 224);
 display: inline;
+border-width: 2px;
+border-style: solid;
 border: 2px solid rgb(25,25,112);
 border-radius: 10px;
 padding: 5px;
