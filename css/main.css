@@ -3,6 +3,11 @@ font-family: 'Istok Web', sans-serif;
 width: 960px;
 margin: 0 auto;
 padding: 0;
+background-image:url('../images/bg_global.jpg');
+background-color:rgb(255,255,255);
+background-repeat:repeat-x;
+
+
 }
 
 h1{
@@ -15,7 +20,7 @@ padding: 5px;
 }
 
 ul li{
-background: rgb(135, 206, 250);
+background: rgb(238, 238, 224);
 display: inline;
 border-width: 2px;
 border-style: solid;
@@ -26,7 +31,7 @@ float: right;
 }
 
 a:hover{
-color: rgb(255, 255, 255);
+color: rgb(139, 139, 131);
 border-bottom: none;
 }
 
@@ -45,7 +50,10 @@ h3, h4, h5, h6{
 }
 
 #main{
-background-color: rgba(0, 191, 255, 0.35);
+background-color: rgba(135, 206, 250, 0.35);
+border-width: 1px;
+border-style: solid;
+border-color: rgb(25, 25, 112);
 -ms-column-count: 3;
 -moz-column-count: 3;
 -webkit-column-count: 3;
@@ -68,13 +76,6 @@ display: inline;
 list-style-type: square;
 float: left;
 margin:0;
-
-background: rgba(135, 206, 250, 0.0);
-border-width: 2px;
-border-style: solid;
-border-color: rgba(25, 25, 112, 0.0);
-border-radius: 10px;
-padding: 0;
 }
 
 #order{
