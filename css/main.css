@@ -75,15 +75,6 @@ float: left;
 margin:0;
 }
 
-ul #labels{
-background: 0;
-display: inline;
-border: 0;
-border-radius: 10px;
-padding: 5px;
-float: left;
-}
-
 #order{
 clear: both;
 }
