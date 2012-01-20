@@ -1,0 +1,9 @@
+body{
+font-family:'Istok Web', arial;
+max-width: 960px;
+margin: 0 auto;
+padding: 0;
+background-image:url('../images/bg_global.jpg');
+background-color:rgb(255,255,255);
+background-repeat:repeat-x;
+}
