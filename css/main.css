@@ -32,7 +32,7 @@ border-width: 2px;
 border-style: solid;
 border: 2px solid rgb(25,25,112);
 border-radius: 10px;
-padding: 0.35%;
+padding: 1.0%;
 float: right;
 }
 
@@ -47,7 +47,7 @@ text-shadow: 1px 1px 1px #666
 
 h1, h2, h3, h4, h5, h6{
 	margin:0;
-	padding: 0.25%; 	
+	padding: 1.0%; 	
 }
 
 h3, h4, h5, h6{
@@ -120,6 +120,25 @@ padding: 0.1%;
 
 #order{
 clear: both;
+}
+
+table{
+border-collapse:collapse;
+border: 2px solid rgb(0,0,0);
+}
+
+td{
+border: 2px solid rgb(0,0,0);
+padding: 0.5em;
+}
+
+th{
+text-align:left;
+padding: 0.5em;
+}
+
+#signup_button{
+float:left;
 }
 
 /* =Media Queries  */

@@ -1,3 +1,7 @@
+input:focus{
+	background:rgb(244,238,224)
+}
+
 body{
 font-family:'Istok Web', arial;
 max-width: 960px;
@@ -6,4 +10,58 @@ padding: 0;
 background-image:url('../images/bg_global.jpg');
 background-color:rgb(255,255,255);
 background-repeat:repeat-x;
+}
+
+#site{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+
+
+#style label{
+display:block;
+text-align:left;
+width:16.875%;
+float:left;
+}
+
+#style input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:67.708%;
+margin:2px 0 20px 10px;
+}
+
+#style your_message{
+clear:both;
+margin-left:15.625%;
+}
+
+/* =Media Queries  */
+
+/* Tablet Portrait size to standard 960 */
+@media screen and (min-width: 768px) and (max-width:959px){
+	#site{ background-color: rgb(0,191,255) }
+	h1{width:50%;}
+	#nav {float:left}
+	#main{width:75%}
+}
+
+/* Mobile Landscape size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width:767px){
+	#site{ background-color: rgb(211,211,211) }
+	h1{width:40%;}
+	#nav {float:left}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width:479px){
+	#site{ background-color: rgb(244,238,224) }
+	h1{width:30%;}
+	#nav {float:left}
+	#labels {display:block; float:left;}
 }
